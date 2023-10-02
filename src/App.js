@@ -12,6 +12,9 @@ function App() {
   const showalert=(message,type)=>{
     setalert({message:message,
   type:type})
+  setTimeout(() => {
+    setalert(null);
+  }, 1000);
   }
   const togglemode=()=>{
     if(mode==="light"){
@@ -31,7 +34,7 @@ function App() {
 <Navbar title="My Text Editor" mode={mode} togglemode={togglemode}/>
 {/* <About/> */}
 <Alerts alert={alert} />
-<Textbox mode={mode} showalert={showalert}/>
+<Textbox mode={mode} showalert={showalert} />
 </>  );
 }
 export default App;
