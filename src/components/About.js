@@ -27,31 +27,44 @@ export default function About() {
           <div className="accordion-item" style={dark}>
             <h2 className="accordion-header" style={dark}>
               <button style={dark} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Accordion Item #1
+                About us
               </button>
             </h2>
             <div style={dark} id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div style={dark} className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the first item's accordion body.</div>
+              <div style={dark} className="accordion-body">My text editor is single page application build with react. It allows users
+              to enter text on a textbox and perform different operantion to manipulate the text. It's functionality are explained below:</div>
             </div>
           </div>
           <div style={dark} className="accordion-item">
             <h2 style={dark} className="accordion-header">
               <button style={dark} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Accordion Item #2
+                Uppercase & Lowercase
               </button>
             </h2>
             <div style={dark} id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div style={dark} className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati ducimus aut optio labore eos eaque, explicabo laudantium tenetur? Corrupti animi quibusdam omnis quisquam dolore officiis eveniet distinctio magni qui voluptatibus. Corporis, asperiores porro!Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              <div style={dark} className="accordion-body">Uppercase converts all the text into uppercase. Similarly, lowercase converts the text to lower case.</div>
             </div>
           </div>
           <div style={dark} className="accordion-item">
             <h2 style={dark} className="accordion-header">
               <button style={dark} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Accordion Item #3
+                Copy to clipboard
               </button>
             </h2>
             <div style={dark} id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-              <div style={dark} className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              <div style={dark} className="accordion-body">copy to clipboard is to 
+              copy the text to clipboard so that copy-paste operation becomes easy.</div>
+            </div>
+          </div>
+          <div style={dark} className="accordion-item">
+            <h2 style={dark} className="accordion-header">
+              <button style={dark} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Clear & Remove extra space
+              </button>
+            </h2>
+            <div style={dark} id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div style={dark} className="accordion-body">Clear operation clears all the text in the textbox and Remove extra
+              space removes more than one spaces between the words.</div>
             </div>
           </div>
         </div>
